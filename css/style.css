@@ -3,15 +3,8 @@
           box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'Muli-Regular', serif;
-  src: url("../../fonts/Muli-Regular.woff") format("woff"), url("../../fonts/Muli-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  font-family: 'Muli-Regular', sans-serif;
+  font-family: 'Muli-Regular', 'Muli-Bold', 'Muli-SemiBold', sans-serif;
   color: #333333;
   background-color: #F5FAFE;
 }
@@ -595,6 +588,12 @@ template {
 .rating__text__counter {
   font-size: 14px;
   line-height: 18px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
 }
 
 @media (max-width: 1110px) {
