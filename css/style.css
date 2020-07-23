@@ -2,30 +2,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-@font-face {
-  font-family: "Muli";
-  src: url("Muli-SemiBold.woff2") format("woff2"),
-    url("Muli-SemiBold.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Muli";
-  src: url("Muli-Bold.woff2") format("woff2"),
-    url("Muli-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Muli";
-  src: url("Muli-Regular.woff2") format("woff2"),
-    url("Muli-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+
 body {
   font-family: "Muli-Regular", "Muli-Bold", "Muli-SemiBold", sans-serif;
   color: #333333;
@@ -722,6 +699,9 @@ template {
 @media (max-width: 576px) {
   .logo {
     width: 99px;
+  }
+  .hotel-info__description {
+    max-width: 270px;
   }
 }
 /*# sourceMappingURL=style.css.map */
